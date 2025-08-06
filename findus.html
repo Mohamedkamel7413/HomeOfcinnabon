@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <title>HOMEOFCINNABON</title>
+  </head>
+  <body>
+    <header class="fixed-top bg-white bg-opacity-75 shadow">
+      <div class="container d-flex p-1">
+        <div class="col-5 col-md-2">
+          <img src="../media/LOGO.png" style="width: 25vw; max-width: 100px" />
+        </div>
+        <div class="d-none d-md-flex col-md-8">
+          <a class="col-md-2 text-center link" href="./index.html">HOME</a>
+          <a class="col-md-2 text-center link" href="./aboutus.html"
+            >ABOUT US</a
+          >
+          <a class="col-md-2 text-center link" href="./Menu.html">MENU</a>
+          <a class="col-md-2 text-center link" href="./offers.html">OFFERS</a>
+          <a class="col-md-2 text-center link" href="./findus.html">FIND US</a>
+        </div>
+        <div class="col-6 col-md-2 m-1 text-end p-3">
+          <a
+            class="p-1 social"
+            href="https://www.facebook.com/share/1YKL2PLREw/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            class="p-1 social"
+            href="https://www.instagram.com/homeof_cinnabon?igsh=ZGp3b2pxdGYzZ2gz"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            class="p-1 social"
+            href="https://www.tiktok.com/@homeofcinnabon?_t=ZS-8xbvrISfrDL&_r=1"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+        </div>
+
+        <i
+          class="fa-solid fa-bars menubutton d-md-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        ></i>
+
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body bg-opacity-75">
+            <img src="../media/LOGO.png" style="width: 150px" />
+            <nav class="nav flex-column">
+              <a class="link p-3 active" href="./index.html">HOME</a>
+              <a class="link p-3 active" href="./aboutus.html">ABOUT US</a>
+              <a class="link p-3 active" href="./Menu.html">MENU</a>
+              <a class="link p-3 active" href="./offers.html">OFFERS</a>
+              <a class="link p-3 active" href="./findus.html">FIND US</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <footer class="shadow bg-white p-4">
+      <div class="container d-flex justify-content-around flex-row">
+        <div class="btn-group dropup fixed-bottom" style="width: 100px">
+          <button
+            type="button"
+            class="dropdown-toggle contact"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Contact Us
+          </button>
+          <ul class="dropdown-menu fs-4">
+            <li>
+              <a href="tel:01208583830" class="direct-contact-button"
+                ><i class="fa-solid fa-phone p-2"></i
+              ></a>
+              <a href="https://wa.me/message/ESXXTKEA6LR6K1"
+                ><i class="fa-brands fa-whatsapp p-2" style="color: green"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="">
+          <i class="fa-solid fa-copyright"></i>
+          <span>2025 Home of cinnabon Site created by Mohamed Kamel</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
