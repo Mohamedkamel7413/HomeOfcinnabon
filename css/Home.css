@@ -105,16 +105,16 @@ footer {
 }
 
 /* for home page */
-.carousel-item {
-    height: 80vh !important;
-
-}
 
 .img {
     background-image: url(../media/52814298-d11b-4760-8c79-026c2e024bdc.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 75vh !important;
+    @media screen and (max-width : 600px) {
+        height: 47vh !important;
+        
+    }
 }
 
 .card {
